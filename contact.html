@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container container-nav">
+            <div class="site-title">
+                <h1>Un Pelo kids</h1>
+                <p class="subtitle">Peluqueria infantil 👶👦👧</p>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html" class="current-page">inicio</a></li>
+                    <li><a href="gallery.html">Galeria</a></li>
+                    <li><a href="team.html">grupo de trabajo</a></li>
+                    <li><a href="about.html">acerca de nosotros</a></li>
+                    <li><a href="contact.html">Contacto</a></li>
+                </ul>
+
+            </nav>
+        </div>
+    </header>
+    <main class="contact">
+        <h1>Contacto</h1>
+        <div class="flex-container">
+            <div class="flex-item-left">
+                <h4>Estamos ubicados en</h4>
+                <p>Rodríguez peña 1522</p>
+                <p>Alta Cba, Cordoba</p>
+                <h4>telefono</h4>
+                <p>3518169682</p>
+                <h4>Email</h4>
+                <p>unpelokids@outlook.com</p>
+            </div>
+            <main class="forms">
+                <div class="container contacto">
+                    <form class="formulario_contacto p-5 formularios mt-5 mb-5" id="formContacto">
+                      <div class="text-center mb-5">
+                        <h4>¿Quieres decirnos algo?</h4>
+                      </div>
+                      <div class="row g-3">
+                        <div class="col-md-4">
+                          <label for="validationDefault01" class="form-label">Nombre *</label>
+                          <input type="text" class="form-control" id="validationDefault01" required minlength="2">
+                        </div>
+                
+                        <div class="col-md-4">
+                          <label for="validationDefault02" class="form-label">Apellido *</label>
+                          <input type="text" class="form-control" id="validationDefault02" value="" required minlength="2">
+                        </div>
+                
+                        <div class="col-md-4">
+                          <label for="validationDefault01" class="form-label">Correo *</label>
+                          <input type="email" class="form-control" id="validationDefault01" value="" required>
+                        </div>
+                
+                        <div class="form-group">
+                          <label for="mensajeContacto">Mensaje *</label>
+                          <textarea class="form-control" id="mensajeContacto" rows="4" required minlength="8"></textarea>
+                        </div>
+                
+                        <div class="col-12 text-center">
+                          <button class="btn btn-success submitBtn" type="submit" id="subm-contacto">Enviar</button>
+                        </div>
+                
+                      </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <h3><span id="demo">&copy;</span><a href="#">https://portfoliovcb.mktcba.com/</a></h3>
+    </footer>
+
+    <script src="js/index.js"></script>
+</body>
+
+
+</html>
